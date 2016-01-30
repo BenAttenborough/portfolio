@@ -75,6 +75,9 @@ header.cambs-bg{
 header.code-bg{
   background: url('images/code.jpg') no-repeat top center ;
 }
+header.art-bg{
+  background: url('images/creative.jpg') no-repeat top center ;
+}
 header .profile-image {
   margin-top: 50px;
   width: 150px;
@@ -110,6 +113,22 @@ header .profile-image:hover {
 }
 .card:hover {
   border-color: #ff99ff;
+}
+.polaroid {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.polaroid:hover {
+  border-color: #ff99ff;
+}
+.polaroid img {
+  width: 100%;
 }
 
 ul.skills {
