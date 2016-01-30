@@ -94,6 +94,7 @@ header .profile-image {
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 .tag {
   background-color: #efefef;
