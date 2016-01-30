@@ -11,6 +11,12 @@ body {
   color: #222;
   background: #f7f5f0;
 }
+/* Typography */
+
+.centre-text{
+  text-align: center;
+}
+
 /* Link Styles */
 
 a {
@@ -129,6 +135,14 @@ header .profile-image:hover {
 }
 .polaroid img {
   width: 100%;
+  transition: transform 0.2s linear;
+}
+.polaroid img:hover {
+  transform: scale(1.2);
+}
+
+.photo-container{
+  overflow: hidden;
 }
 
 ul.skills {
