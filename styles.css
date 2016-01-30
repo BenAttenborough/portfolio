@@ -52,18 +52,28 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: white;
+}
+.active {
+  color: white;
+  text-decoration: underline;
 }
 
 header {
   text-align: center;
-  background: url('images/cambridge.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
 header {
   line-height: 1.5;
+}
+header.cambs-bg{
+  background: url('images/cambridge.jpg') no-repeat top center ;
+  
+}
+header.code-bg{
+  background: url('images/code.jpg') no-repeat top center ;
 }
 header .profile-image {
   margin-top: 50px;
